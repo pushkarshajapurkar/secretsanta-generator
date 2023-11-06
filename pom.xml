@@ -16,6 +16,7 @@
 
 	<properties>
                 <!-- JaCoCo Properties -->
+		<java.version>1.8</java.version>
                 <jacoco.version>0.8.7</jacoco.version>
                 <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
    	        <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
@@ -23,9 +24,6 @@
                 <sonar.language>java</sonar.language>
         </properties>
 
-	<properties>
-		<java.version>1.8</java.version>
-	</properties>
 
 	<dependencies>
 		<dependency>
